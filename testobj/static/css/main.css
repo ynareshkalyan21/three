@@ -1,0 +1,25 @@
+.columns {
+
+    padding: 0 0 0 0;
+
+}
+
+.side-nav > li {
+
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+    color: #691d11;
+}
+
+.side-nav > li:hover {
+
+    background-color: #efab97;
+
+}
+
+.side-nav > li:active {
+
+    background-color: #694f3f;
+    color: #ffffff;
+}

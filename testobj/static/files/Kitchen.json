@@ -1,0 +1,114 @@
+{
+    "Type": "Straight",
+    "Room": {
+
+        "Dimensions": {
+
+            "Height": 12,
+            "Width": 15,
+            "Depth": 8
+        },
+        "Finish": {
+
+            "Floor": {
+
+                "Type": 0,
+                "Texture": null,
+                "Color": "rgb(158,45,45)"
+
+            },
+            "Ceiling": {
+
+                "Type": 0,
+                "Texture": null,
+                "Color": "rgb(255,255,255)"
+
+            }
+
+        }
+
+    },
+    "Materials": {
+
+        "Body": {
+
+            "Type": "PRE-LAM PB",
+            "Finish": 0,
+            "Image": "Url"
+
+        },
+        "Shutter": {
+
+            "Type": "PRE-LAM-PB",
+            "Finish": 1,
+            "Image": "Url"
+        },
+        "Hardware": {
+
+            "Type": "HETTICH",
+            "Finish": "aluminium",
+            "Model": "Url"
+
+        }
+
+    },
+    "Walls": [
+        {
+            "Name": "WallA",
+            "Finish": {
+
+                "Type": 0,
+                "Texture": null,
+                "Color": "rgb(255,255,255)"
+
+            },
+            "Base": ["SU-24", "UU-18", "OB-D-36", "UU-18", "SR-6", "UU-18", "SR-6"],
+            "Wall": []
+
+
+        },
+        {
+            "Name": "WallB",
+            "Finish": {
+
+                "Type": 0,
+                "Texture": null,
+                "Color": "rgb(255,255,255)"
+
+            },
+            "Base": ["SU-24", "UU-18", "OB-D-36", "UU-18", "SR-6", "UU-18", "SR-6"],
+            "Wall": []
+
+
+        },
+        {
+            "Name": "WallC",
+            "Finish": {
+
+                "Type": 0,
+                "Texture": null,
+                "Color": "rgb(255,255,255)"
+
+            },
+            "Base": ["SU-24", "UU-18", "OB-D-36", "UU-18", "SR-6", "UU-18", "SR-6"],
+            "Wall": []
+
+        },
+        {
+
+            "Name": "WallD",
+            "Finish": {
+
+                "Type": 0,
+                "Texture": null,
+                "Color": "rgb(255,255,255)"
+
+            },
+            "Base": ["SU-24", "UU-18", "OB-D-36", "UU-18", "SR-6", "UU-18", "SR-6"],
+            "Wall": []
+
+        }
+    ],
+    "Accessories": []
+
+}

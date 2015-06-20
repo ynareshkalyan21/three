@@ -1,0 +1,111 @@
+{
+    "Base": {
+
+        "Constraints": {
+
+            "Position": 0
+
+        },
+        "Skirting": {
+
+            "Height": 4
+
+        },
+        "SU-24": {
+
+            "Height": 2.2,
+            "Width": 2,
+            "Depth": 2,
+            "BMesh": "/static/files/SU-24.js",
+            "SMesh": "/static/files/SU_24.js",
+            "HMesh": "/static/files/SU24.js"
+
+        },
+
+        "SR-6": {
+
+            "Height": 2.2,
+            "Width": 0.5,
+            "Depth": 2,
+            "BMesh": "/static/files/SR-6.js",
+            "SMesh": "/static/files/SR_6.js",
+            "HMesh": "/static/files/SR6.js"
+
+
+        },
+        "CU-24": {
+
+            "Height": 2.2,
+            "Width": 2,
+            "Depth": 2,
+            "BMesh": "/static/files/CU-24.js",
+            "SMesh": "/static/files/CU_24.js",
+            "HMesh": "/static/files/CU24.js"
+
+        },
+
+        "TU-18": {
+
+
+            "Height": 2.2,
+            "Width": 1.52,
+            "Depth": 2,
+            "BMesh": "/static/files/TU-18.js",
+            "SMesh": "/static/files/TU_18.js",
+            "HMesh": "/static/files/TU18.js"
+
+
+        },
+        "AU-24": {
+
+
+            "Height": 4,
+            "Width": 2,
+            "Depth": 2,
+            "BMesh": "/static/files/AU-24.js",
+            "SMesh": "/static/files/AU_24.js",
+            "HMesh": "/static/files/AU24.js"
+
+        },
+        "OB-C-36": {
+
+
+            "Height": 2,
+            "Width": 3,
+            "Depth": 2,
+            "BMesh": "/static/files/OB-C-36.js",
+            "SMesh": null,
+            "HMesh": null
+
+
+        },
+        "CNU-36": {
+
+
+            "Height": 2,
+            "Width": 3,
+            "Depth": 2,
+            "BMesh": "/static/files/CN-36.js",
+            "SMesh": "/static/files/CN_36.js",
+            "HMesh": "/static/files/CN36.js"
+
+        },
+        "HRU-36": {
+
+
+            "Height": 2,
+            "Width": 3,
+            "Depth": 2,
+            "BMesh": "/static/files/HU-R-36.js",
+            "SMesh": "/static/files/HU_R_36.js",
+            "HMesh": "/static/files/HUR36.js"
+
+        }
+
+
+    },
+    "Wall": [],
+    "Tall": [],
+    "Accessories": [],
+    "Obstacles": []
+}

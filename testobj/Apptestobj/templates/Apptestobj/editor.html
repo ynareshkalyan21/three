@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CF-Editor / editor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+
+        body {
+
+            margin: 0 0;
+        }
+    </style>
+    <link rel="stylesheet" href="/static/css/foundation.min.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/main.css" type="text/css">
+</head>
+<body>
+<div class="off-canvas-wrap" style="height:70px;background-color: #444444">
+
+</div>
+<div class="off-canvas-wrap" style="display: inline-block;height: 75%;width:100%;margin-top:5px">
+
+    <div class="columns large-2 medium-2 small-12"
+         style="height: 100%;overflow-y:auto;background-color: #efefef">
+        <ul class="side-nav" role="navigation" title="Link List">
+{#            <li class="menu-item" data-type="room">SET ROOM</li>#}
+{#            <li class="menu-item" data-type="cabinet-base">ADD BASE CABINET</li>#}
+{#            <li class="menu-item" data-type="cabinet-wall">ADD WALL CABINET</li>#}
+{#            <li class="menu-item" data-type="cabinet-Tall">ADD TALL CABINET</li>#}
+            <li class="menu-item" data-type="color">CHANGE FINISH</li>
+            <li class="menu-item" data-type="color"><img src="/static/images/tex_1.jpg" class="texture-change" style="height: 30px;width: 100%;"></li>
+            <li class="menu-item" data-type="color"><img src="/static/images/tex_2.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 003.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 004.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 005.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 012.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 013.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 014.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 026.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 038.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+            <li class="menu-item" data-type="color"><img src="/static/images/HIN - PVC - 039.jpg" class="texture-change" style="height: 30px;width: 100%;"> </li>
+        </ul>
+    </div>
+    <div class="columns large-8 medium-8 small-12" id="editor-Parent" style="height: 100%">
+
+        <div id="cf-Editor" style="height: 100%;width: 100%"></div>
+
+    </div>
+    <div class="columns large-2 medium-2 small-12" style="height: 100%;background-color: #efefef"></div>
+
+
+</div>
+<div class="off-canvas-wrap" style="display: inline-block;height: 15%;width:100%;background-color: #efefef">
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/static/js/underscore-min.js"></script>
+<script src="/static/js/underscore-min.map"></script>
+<script src="/static/js/foundation.min.js"></script>
+<script src="/static/js/three.min.js"></script>
+
+
+<script src="/static/js/CFEditor/libs/signals.min.js"></script>
+
+<script src="/static/js/CFEditor/libs/Detector.js"></script>
+<script src="/static/js/CFEditor/libs/Projector.js"></script>
+<script src="/static/js/CFEditor/libs/RaytracingRenderer.js"></script>
+
+<script src="/static/js/CFEditor/libs/JSONLoader.js"></script>
+
+<script src="/static/js/CFEditor/libs/TransformControls.js"></script>
+<script src="/static/js/CFEditor/libs/EditorControls.js"></script>
+
+
+<script src="/static/js/CFEditor/CFUtils.js"></script>
+<script src="/static/js/CFEditor/CFUtils.js"></script>
+<script src="/static/js/CFEditor/CFKdata.js"></script>
+<script src="/static/js/CFEditor/CFFurnish.js"></script>
+<script src="/static/js/CFEditor/CFStorage.js"></script>
+<script src="/static/js/CFEditor/CFConfig.js"></script>
+<script src="/static/js/CFEditor/CFMaterial.js"></script>
+<script src="/static/js/CFEditor/CFLighting.js"></script>
+
+<script src="/static/js/CFEditor/CFLoader.js"></script>
+
+<script src="/static/js/CFEditor/CFRoom.js"></script>
+<script src="/static/js/CFEditor/CFComponents.js"></script>
+<script src="/static/js/CFEditor/CFStorage.js"></script>
+<script src="/static/js/CFEditor/CFLoader.js"></script>
+<script src="/static/js/CFEditor/CFEditor.js"></script>
+<script src="/static/js/CFEditor/CFViewport.js"></script>
+<script src="/static/js/CFEditor/CFInit.js"></script>
+<script src="/static/js/colorChange.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</html>
